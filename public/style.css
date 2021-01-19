@@ -1,0 +1,43 @@
+body {
+  font-size: 18px;
+  background: #f0e2e7;
+}
+
+h1 {
+  color: #1d6bd7;
+}
+
+.btn-main {
+  background: #3f84e5;
+  color: #ffffff;
+  font-size: 1rem;
+  padding: 10px 25px;
+}
+
+.btn-main:hover {
+  background: #1d6bd7;
+  color: #ffffff;
+}
+
+.btn-reset {
+  background: #b20d30;
+  color: #ffffff;
+  font-size: 1rem;
+  padding: 10px 25px;
+}
+.btn-reset:hover {
+  background: #980b2a;
+  color: #ffffff;
+}
+
+.btn-main svg,
+.btn-reset svg {
+  font-size: 0.8rem;
+  transform: translateX(10px);
+  transition: 0.3s ease-in-out all;
+}
+
+.btn-main:hover svg,
+.btn-reset:hover svg {
+  transform: translateX(15px);
+}
